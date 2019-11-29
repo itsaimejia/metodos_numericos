@@ -61,8 +61,6 @@ for opt,arg in opts:
 		parser.add_argument('-E','--e', help='Valor de la tolerancia', required=True)
 		parser.add_argument('-N','--n', help='Valor de las iteraciones', required=True)
 		args=parser.parse_args()
-
-		args=parser.parse_args()
 	if opt in ("-A", "--a"):
 		datos.append(arg)
 	elif opt in ("-B", "--b"):
